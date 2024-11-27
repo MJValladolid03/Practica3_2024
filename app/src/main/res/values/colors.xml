@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="primaryColor">#FF0000</color> <!-- Rojo -->
+    <color name="primaryColorVariant">#B20000</color> <!-- Rojo oscuro -->
+    <color name="secondaryColor">#FFFFFF</color> <!-- Blanco -->
+    <color name="tertiaryColor">#000000</color> <!-- Negro -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- Blanco -->
+    <color name="onPrimaryColor">#FFFFFF</color> <!-- Blanco, para textos sobre color primario -->
+    <color name="onSecondaryColor">#000000</color> <!-- Negro, para textos sobre color secundario -->
+    <color name="black">#000000</color> <!-- Negro, para textos sobre color secundario -->
+    <color name="colorAccent">#E43437</color>
+    <color name="red">#FF0000</color>
+
+</resources>
+
+
