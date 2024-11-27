@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etNombre" type="id" />
+    <item name="btnSiguiente" type="id" />
+    <item name="infoTextView" type="id" />
+    <item name="descriptionTextView" type="id" />
+    <item name="contactButton" type="id" />
+    <item name="btnCollection" type="id"/>
+</resources>
