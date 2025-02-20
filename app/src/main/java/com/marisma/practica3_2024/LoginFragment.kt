@@ -36,7 +36,7 @@ class LoginFragment : Fragment() {
 
         val iv_logo = binding.ivLogo
         iv_logo.setOnClickListener{
-            Toast.makeText(context, "Made by Juan Carlos Maceras", Toast.LENGTH_LONG).show()
+            Toast.makeText(context, "Made by MJ Valladolid", Toast.LENGTH_LONG).show()
         }
 
         return binding.root

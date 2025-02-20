@@ -9,7 +9,9 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.setupActionBarWithNavController
 import com.marisma.practica3_2024.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         val navFragment = supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
         val navController = navFragment.navController
-        NavigationUI.setupActionBarWithNavController(this, navController)
+        setupActionBarWithNavController(navController) // Configura el Up Button
 
         val bottomNavigationView = binding.bottomNavigationView
 
@@ -35,9 +37,11 @@ class MainActivity : AppCompatActivity() {
             when (destination.id) {
                 R.id.loginFragment -> {
                     bottomNavigationView.visibility = View.GONE
+                    supportActionBar?.setDisplayHomeAsUpEnabled(false) // No mostrar el Up Button en login
                 }
                 else -> {
                     bottomNavigationView.visibility = View.VISIBLE
+                    supportActionBar?.setDisplayHomeAsUpEnabled(true) // Mostrar el Up Button en otras pantallas
                 }
             }
         }
@@ -81,6 +85,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = this.findNavController(R.id.navHostFragment)
-        return navController.navigateUp()
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 }

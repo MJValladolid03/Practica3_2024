@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">musicapp</string>
+        <string name="bienvenidos">¡Bienvenido a musicapp!</string>
+        <string name="usuario">usuario</string>
+        <string name="siguiente">Siguiente</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="introduce_tu_nombre">Introduce tu nombre</string>
+        <string name="aqu_encontrar_s_detalles_sobre_los_cr_ditos_de_la_aplicaci_n">Aquí encontrarás detalles sobre los créditos de la aplicación.</string>
+        <string name="informaci_n_de_cr_ditos">Información de créditos</string>
+        <string name="contactar">Contactar</string>
+        <string name="iniciar_sesi_n">Iniciar Sesión</string>
+        <string name="nombre_de_usuario">Nombre de usuario</string>
+        <string name="ingresar">Ingresar</string>
+        <string name="introduce_tu_nombre2">Introduce tu nombre</string>
+        <string name="siguiente2">Siguiente</string>
+        <string name="a_adir_a_favoritos">Añadir a Favoritos</string>
+        <string name="detail_series_title">Detalles\n</string>
+        <string name="series_image_description">imagen de la cancion</string>
+        <string name="country_title">pais\n</string>
+        <string name="value_title">titulo\n</string>
+        <string name="year_title">año de la cancion\n</string>
+        <string name="details_title">detalles del titulo\n</string>
+        <string name="user_info_title">- USUARIO -</string>
+        <string name="user_name">Nombre usuario: %s</string>
+        <string name="user_fav_Count">%s cancion marcadas como favoritas</string>
+        <string name="btn_return">volver\n</string>
+        <string name="user_fav_Count0">Ninguna cancion marcada como favorita</string>
+        <string name="user_fav_Count1">%s cancion marcada como favorita</string>
+        <string name="song_image_description">imagen song</string>
+        <string name="title_label">TITULO</string>
+        <string name="artist_label">artista\n</string>
+        <string name="year_label">año de la cancion\n</string>
+        <string name="btn_collection">Canciones</string>
+        <string name="btn_catalog">catalogo\n</string>
+        <string name="fav_item_list_title">FAVORITO\n</string>
+        <string name="img_description_settings">AJUSTES\n</string>
+        <string name="img_description_userInfo">iNFORMACION</string>
+        <string name="fav_item_fab_description">COMENTARIOS\n</string>
+        <string name="detail_item_list_title">DETALLES</string>
+        <string name="anno">año de la cancion</string>
+        <string name="item_image_description">imagen de la cancion</string>
+        <string name="msg_menu_welcome">bienvendio\n</string>
+        <string name="btn_main_login">iniciar sesion\n</string>
+        <string name="et_main_hint">usuario</string>
+        <string name="nombrecancion">Nombre cancion</string>
+</resources>
